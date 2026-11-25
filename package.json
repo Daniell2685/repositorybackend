@@ -1,0 +1,20 @@
+{
+  "name": "desplegando-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Daniel Valiente Cruz <dvaliente@tecsup.edu.pe>",
+  "license": "MIT",
+  "private": false,
+  
+  "scripts": {
+    "dev":"nodemon index.js",
+    "start": "node index.js"
+
+  },
+
+
+  "devDependencies": {
+    "dotenv": "^18.0.10",
+    "nodemon": "^3.1.14"
+  }
+}
